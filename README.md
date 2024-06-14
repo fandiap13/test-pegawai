@@ -1,6 +1,7 @@
 # Pegawai API
 
-API untuk mengelola data pegawai. 
+API untuk mengelola data pegawai.
+
 <!-- Demo: http://testfandi.centraltech.my.id/ -->
 
 ## Prasyarat
@@ -14,7 +15,7 @@ API untuk mengelola data pegawai.
 1. Clone repositori
 
     ```bash
-    git clone https://github.com/username/repository.git
+    git clone https://github.com/fandiap13/test-pegawai.git
     cd repository
     ```
 
