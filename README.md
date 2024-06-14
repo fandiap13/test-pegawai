@@ -19,13 +19,14 @@ API untuk mengelola data pegawai.
     cd repository
     ```
 
-2. Ekstrak file `template.zip` yang terletak pada direktori `public/template.zip`:
-
-    - Buka file `template.zip` dan ekstrak isinya ke direktori `public/`.
-
-3. Install dependensi
+2. Install dependensi
     ```
     composer install
+    ```
+3. Konfigurasi environment
+    ```
+    cp .env.example .env
+    php artisan key:generate
     ```
 4. Buat database `db_pegawai`
 5. Migrasi database
@@ -33,9 +34,14 @@ API untuk mengelola data pegawai.
     php artisan migrate --seed
     ```
 6. Jalankan server lokal
+
     ```
     php artisan serve
     ```
+
+7. Jika template tidak terdeteksi maka, Ekstrak file `template.zip` yang terletak pada direktori `public/template.zip`:
+
+    - Buka file `template.zip` dan ekstrak isinya ke direktori `public/`.
 
 # DOKUMENTASI API
 
